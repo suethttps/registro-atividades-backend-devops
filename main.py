@@ -13,6 +13,7 @@ from database import Base, engine, get_db
 from uploader import MEDIA_DIR, router as upload_router
 from users import router as users_router
 
+# John ajudou aqui 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
